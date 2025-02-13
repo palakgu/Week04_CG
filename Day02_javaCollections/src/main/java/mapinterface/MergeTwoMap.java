@@ -7,10 +7,10 @@ public class MergeTwoMap {
 
         Map<String, Integer> map2 = Map.of("B", 3, "C", 4);
 
-        System.out.println(mergeMaps(map1, map2));
+        System.out.println(mergeMap(map1, map2));
     }
 
-    public static Map<String, Integer> mergeMaps(Map<String, Integer> map1, Map<String, Integer> map2) {
+    public static Map<String, Integer> mergeMap(Map<String, Integer> map1, Map<String, Integer> map2) {
         Map<String, Integer> mergedMap = new HashMap<>(map1);
 
         for (Map.Entry<String, Integer> entry : map2.entrySet()) {
