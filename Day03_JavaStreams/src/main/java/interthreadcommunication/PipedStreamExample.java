@@ -7,10 +7,10 @@ import java.io.PipedOutputStream;
 public class PipedStreamExample {
     public static void main(String[] args) {
         try {
-            PipedOutputStream pos = new PipedOutputStream();
-            PipedInputStream pis = new PipedInputStream(pos);
+            PipedOutputStream posi = new PipedOutputStream();
+            PipedInputStream pis = new PipedInputStream(posi);
 
-            Thread writer = new WriterThread(pos);
+            Thread writer = new WriterThread(posi);
             Thread reader = new ReaderThread(pis);
 
             writer.start();
