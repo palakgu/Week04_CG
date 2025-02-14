@@ -9,18 +9,18 @@ public class BufferedStreams {
         String fileoutput = "output.txt";
         String unbuffered = "out.txt";
 
-        long startTime = System.nanoTime();
-        copyFileUsingBufferedStreams(fileinput, fileoutput);
-        long endTime = System.nanoTime();
-        System.out.println("Buffered Streams Time: " + (endTime - startTime) / 1000000 + " ms");
-
         long startTime1 = System.nanoTime();
-        copyFileUsingUnbufferedStreams(fileinput, unbuffered);
+        copyFileUsingBufferedStreams(fileinput, fileoutput);
         long endTime1 = System.nanoTime();
-        System.out.println("Unbuffered Streams Time: " + (endTime1 - startTime1) / 1000000 + " ms");
+        System.out.println("Buffered Streams Time: " + (endTime1 - startTime1) / 1000000 + " ms");
+
+        long startTime2 = System.nanoTime();
+        copyFileUsingUnbufferedStreams(fileinput, unbuffered);
+        long endTime2 = System.nanoTime();
+        System.out.println("Unbuffered Streams Time: " + (endTime2 - startTime2) / 1000000 + " ms");
     }
 
-    private static void copyFileUsingBufferedStreams(String source, String destination) {
+    static void copyFileUsingBufferedStreams(String source, String destination) {
         try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(source));
              BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(destination))) {
 
@@ -35,7 +35,7 @@ public class BufferedStreams {
         }
     }
 
-    private static void copyFileUsingUnbufferedStreams(String source, String destination) {
+    static void copyFileUsingUnbufferedStreams(String source, String destination) {
         try (FileInputStream fis = new FileInputStream(source);
              FileOutputStream fos = new FileOutputStream(destination)) {
 
