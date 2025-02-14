@@ -4,12 +4,12 @@ a) ORDER BY
 b) SORT
 c) ORDER
 d) SORT BY
-Q.2  How can you change “Hansen” into “Nilsen” in the “LastName” column in the Persons table?
+Q.2  How can you change âHansenâ into âNilsenâ in the âLastNameâ column in the Persons table?
 *
-a) UPDATE Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
-b) MODIFY Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
-c) MODIFY Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
-d) UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+a) UPDATE Persons SET LastName=âHansenâ INTO LastName=âNilsenâ
+b) MODIFY Persons SET LastName=âNilsenâ WHERE LastName=âHansenâ
+c) MODIFY Persons SET LastName=âHansenâ INTO LastName=âNilsenâ
+d) UPDATE Persons SET LastName=âNilsenâ WHERE LastName=âHansenâ
 Q.3 The correct order of corresponding OSI layers for having functionalities of routing and reconciling machine representation differences with shared access resolution and ASCII test protocol is?
 
 *
@@ -48,7 +48,7 @@ a. RSA algorithm
 b. Diffie-Hellman algorithm
 c. Electronic code book algorithm
 d. None of the mentioned
-Q.9  With SQL, how can you return the number of not null records in the “Persons” table?
+Q.9  With SQL, how can you return the number of not null records in the âPersonsâ table?
 *
 a) SELECT COUNT() FROM Persons
 b) SELECT COLUMNS() FROM Persons
@@ -352,7 +352,7 @@ III. to pumping the economy
 3. Both I and II
 4. Only III
 5. No improvement required
-Q.16 Well, my plan to go to the beach have gone for a burton now that it’s supposed to rain all weekend.
+Q.16 Well, my plan to go to the beach have gone for a burton now that itâs supposed to rain all weekend.
 
 i) plan to go to the beach had went for a burton now
 
@@ -366,7 +366,7 @@ iii) plan of going to the beach is gone for a burton now
 3. Only iii
 4. Only ii and iii
 5. No improvement required
-17. With surface temperatures estimated at minus 130 degrees Fahrenheit, Jupiter’s moon Europa has long been considered far too cold to support life, and with 60 square miles of water thought to be frozen from top to bottom.
+17. With surface temperatures estimated at minus 130 degrees Fahrenheit, Jupiterâs moon Europa has long been considered far too cold to support life, and with 60 square miles of water thought to be frozen from top to bottom.
 
 1. Europa has long been considered far too cold to support life, and with
 2. Europa has long been considered far too cold to support life, its
@@ -399,15 +399,15 @@ A) ECDAB
 B) BAECD
 C) DACEB
 D) DEACB
-21. What is the synonym of the word ‘Parochial’?
+21. What is the synonym of the word âParochialâ?
 
 A) Abstract
 B) Unorthodox
 C) Baffling
 D) Conservative
-22. Fill the blank with the appropriate word: ‘
+22. Fill the blank with the appropriate word: â
 
-The decision will ___ the entire nation.’
+The decision will ___ the entire nation.â
 
 A) Impact
 B) Impress
@@ -421,16 +421,16 @@ D) Implement
 5.Break down
 24. Even though he is a learned person, he talks nonsense when it comes to morality and integrity. 
 
-1. Talks through one’s hat
+1. Talks through oneâs hat
 2.  Bark up the wrong tree
 3. Like a cat on hot bricks
 4. Show a clean pair of heels
 25. Mary had a bad experience in a relationship in the past, now, she is in a state of confusion whether she should marry someone or not.
 
 1. All at Sea
-2. Wrapped one’s brain around
+2. Wrapped oneâs brain around
 3. Playing ducks and drakes
-4. At one’s beck and call
+4. At oneâs beck and call
 26. Antonym : EXODUS
 
 *

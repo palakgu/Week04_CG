@@ -1,18 +1,42 @@
 package filestreams;
 import java.io.*;
 public class FileHandling {
-    public static void main(String args[]) {
-        try (FileInputStream fis = new FileInputStream("question of capgemini.txt");
-             FileOutputStream fos = new FileOutputStream("output.txt")) {
-
-            int byteData;
-            while ((byteData = fis.read()) != -1) {
-                fos.write(byteData);
+    public static String readFile(String sourceFilePath) {
+        StringBuilder content = new StringBuilder();
+        try (FileInputStream fis = new FileInputStream(sourceFilePath)) {
+            int ch;
+            while ((ch = fis.read()) != -1) {
+                content.append((char) ch);
             }
-            System.out.println("File copied successfully.");
+        } catch (FileNotFoundException e) {
+            System.out.println("Error: Source file not found!");
+            return null;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Error reading file: " + e.getMessage());
+            return null;
         }
+        return content.toString();
+    }
+    public static void writeFile(String destinationFilePath, String content) {
+        if (content == null) {
+            System.out.println("No content to write.");
+            return;
+        }
+        try (FileOutputStream fos = new FileOutputStream(destinationFilePath)) {
+            fos.write(content.getBytes());
+            System.out.println("File written successfully.");
+        } catch (IOException e) {
+            System.out.println("Error writing to file: " + e.getMessage());
+        }
+    }
 
+    public static void main(String[] args) {
+        String sourceFile = "question of capgemini.txt";
+        String destinationFile = "Output.txt";
+
+
+        String fileContent = readFile(sourceFile);
+
+        writeFile(destinationFile, fileContent);
     }
 }
