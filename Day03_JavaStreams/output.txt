@@ -1,0 +1,462 @@
+Q.1 Which SQL keyword is used to sort the result-set?
+*
+a) ORDER BY
+b) SORT
+c) ORDER
+d) SORT BY
+Q.2  How can you change “Hansen” into “Nilsen” in the “LastName” column in the Persons table?
+*
+a) UPDATE Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
+b) MODIFY Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+c) MODIFY Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
+d) UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+Q.3 The correct order of corresponding OSI layers for having functionalities of routing and reconciling machine representation differences with shared access resolution and ASCII test protocol is?
+
+*
+a. Network, Physical, Transport, Data link
+b. Network, Physical, Data link, Application
+c. Network, Presentation, Data link, Application
+d. Network, Presentation, Physical, Transport
+Q.4 Which SQL statement is used to return only different values?
+
+*
+a) SELECT DIFFERENT
+b) SELECT UNIQUE
+c) SELECT DISTINCT
+d) SELECT ALL
+Q.5  Which of the following statement is true about error detection techniques used on communications link?
+*
+a. Cyclic Redundancy Check (CRC) sequence can detect as well as correct errors.
+b. Error detection cannot be used on simplex links.
+c. Hamming code can detect up to 3-bit errors.
+d. All of the these
+Q.6  What does the ALTER TABLE clause do?
+*
+a) The SQL ALTER TABLE clause modifies a table definition by altering, adding, or deleting table columns and/or constraints
+b) The SQL ALTER TABLE clause is used to insert data into database table
+c) THE SQL ALTER TABLE deletes data from database table
+d) The SQL ALTER TABLE clause is used to delete a database table
+Q.7  In the cryptography, the sequence of the letters is rearranged by?
+*
+a. Transposition ciphers
+b. Substitution ciphers
+c. Both a and b
+d. None of these
+Q.8 Which of the following algorithms is not used in asymmetric-key cryptography?
+*
+a. RSA algorithm
+b. Diffie-Hellman algorithm
+c. Electronic code book algorithm
+d. None of the mentioned
+Q.9  With SQL, how can you return the number of not null records in the “Persons” table?
+*
+a) SELECT COUNT() FROM Persons
+b) SELECT COLUMNS() FROM Persons
+c) SELECT COLUMNS(*) FROM Persons
+d) SELECT COUNT(*) FROM Persons
+Q.10  The UPDATE SQL clause can _____________
+*
+a) update only one row at a time
+b) update more than one row at a time
+c) delete more than one row at a time
+d) delete only one row at a time
+Q.11  The private key in asymmetric key cryptography is kept by?
+*
+a. Sender
+b. Receiver
+c. Sender and Receiver
+d. None of the these
+Q.12 Which of the following is true with regard to the ping command?
+*
+a. Ping stands for Packet Internet Generator.
+b. The ping command checks the port level connectivity between source destinations end points.
+c. Ping summarizes the packet loss and round-trip delay between two IP end points.
+d. The ping command activates the RARP protocol of the IP layer.
+Q.13  Which of these best describes an array?
+*
+a) A data structure that shows a hierarchical behavior
+b) Container of objects of similar types
+c) Arrays are immutable once initialized
+d) Array is not a data structure
+Q.14  How do you instantiate an array in Java?
+*
+a) int arr[] = new int(3);
+b) int arr[];
+c) int arr[] = new int[3];
+d) int arr() = new int(3);
+Q.15 What is the output of the following Java code?
+public class array {
+
+  public static void main(String args[])   {
+
+  int []arr = {1,2,3,4,5};
+
+  System.out.println(arr[2]);
+
+  System.out.println(arr[4]);
+
+  }
+
+}
+
+*
+a) 3 and 5
+b) 5 and 3
+c) 2 and 4
+d) 4 and 2
+Q.16  When does the ArrayIndexOutOfBoundsException occur?
+*
+a) Compile-time
+b) Run-time
+c) Not an error
+d) Not an exception at all
+Q.17  Which of the following concepts make extensive use of arrays?
+*
+a) Binary trees
+b) Scheduling of processes
+c) Caching
+d) Spatial locality
+Q.18  What are the disadvantages of arrays?
+*
+a) Data structure like queue or stack cannot be implemented
+b) There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+c) Index value of an array can be negative
+d) Elements are sequentially accessed
+Q.19  Assuming int is of 4bytes, what is the size of int arr[15]?
+a) 15
+b) 19
+c) 11
+d) 60
+Q.20  Elements in an array are accessed _____________
+*
+a) randomly
+b) sequentially
+c) exponentially
+d) logarithmically
+Q.21 What is output from the following code?
+x = 10
+loop while x > 85
+   x = x - 5
+print x
+a) 85
+b) 5
+c) 10
+d) 0
+e) 80
+Q.22 What is output from the following code?
+
+x = 10
+
+sum = 0
+
+loop while x > 3
+
+   sum = sum + x
+
+   x = x - 2
+
+print sum
+
+a) 30
+b) 32
+c) 26
+d) 28
+e) 10
+Q.23 What is output from the following code?
+x = 20
+loop while x > 10
+   x = x - 4
+print x
+a) 12
+b) 20
+c) 8
+d) 10
+e) 4
+Q.24 What is output from the following code?
+
+a = 2
+
+loop while a < 10
+
+   print a + " "
+
+   a = a + 2
+
+a) 2 4 6 8 10
+b) 2
+c) 2 4 6
+d) 2 2 2
+e) 2 4 6 8
+Q.25 What is output from the following code?
+x = 15
+if x > 15
+   print "go"
+if x < 20
+   print "stop"
+a) stopgo
+b) stop
+c) go
+d) gostop
+Q.26 Malicious software is known as: 
+
+a. Badware.
+b. Malware.
+c. Maliciousware.
+d. Illegalware.
+Q.27 A program that performs a useful task while simultaneously allowing destructive acts is a: 
+
+a. Worm.
+b. Trojan horse.
+c. Virus.
+d. Macro virus.
+Q.28 What type of virus uses computer hosts to reproduce itself? 
+
+a. Time bomb
+b. Worm
+c. Melissa virus
+d. Macro virus
+Q.29 The thing that eventually terminates a worm virus is a lack of: 
+
+a. Memory or disk space.
+b. Time.
+c. CD drives space.
+d. CD-RW.
+Q.30 ______ describes a cloud service accessible only to a limited number of people.
+
+A Data Center
+B Public cloud
+C Private cloud
+D Virtualisation
+
+
+Q1. Unless you study consistently, achieving excellence in academics remains an elusive goal," the teacher warned the students. (Direct indirect speech)
+
+*
+A) The teacher warned the students that unless they studied consistently, achieving excellence in academics remains an elusive goal.
+B) The teacher warns the students that unless they study consistently, achieving excellence in academics will remain an elusive goal.
+C) The teacher warned the students that unless they study consistently, achieving excellence in academics will remain an elusive goal.
+D) The teacher warns the students that unless they studied consistently, achieving excellence in academics remains an elusive goal.
+Q2. Direct Speech:
+
+"Having completed the marathon, John exclaimed, 'I never thought I could do it!'"(Direct indirect speech)
+
+*
+A) John exclaimed that having completed the marathon, he never thought he could do it.
+B) John exclaimed that having completed the marathon, he never thought he can do it.
+C) John exclaimed that having completed the marathon, he never thinks he could do it.
+D) John exclaimed that having completed the marathon, he never thinks he can do it.
+Q3. "By the time you arrive, we will have finished setting up the exhibition," the curator assured the artists. (Direct indirect speech)
+
+*
+A) The curator assured the artists that by the time they arrive, they would have finished setting up the exhibition.
+B) The curator assures the artists that by the time they arrive, they will have finished setting up the exhibition.
+C) The curator assured the artists that by the time they arrive, they will have finished setting up the exhibition.
+D) The curator assures the artists that by the time they arrive, they would have finished setting up the exhibition.
+Q4. "The professor remarked, 'Understanding quantum mechanics requires a deep grasp of theoretical physics and advanced mathematical concepts,'" said Sarah. (Direct indirect speech)
+
+*
+A) Sarah remarked that understanding quantum mechanics required a deep grasp of theoretical physics and advanced mathematical concepts.
+B) Sarah remarked that understanding quantum mechanics requires a deep grasp of theoretical physics and advanced mathematical concepts.
+C) Sarah remarks that understanding quantum mechanics required a deep grasp of theoretical physics and advanced mathematical concepts.
+D) Sarah remarks that understanding quantum mechanics requires a deep grasp of theoretical physics and advanced mathematical concepts.
+Q5. Magnify (SYNONYM)
+
+*
+A) Reduce
+B) Amplify
+C) Diminish
+D) Minimize
+Q6. Incessant (ANTONYM)
+
+*
+A) Ceaseless
+B) Intermittent
+C) Temporary
+D) Occasional
+Q7. Enigma (ANTONYM)
+
+*
+A) Clarity
+B) Puzzle
+C) Obvious
+D) Transparent
+Q8. Voracious (SYNONYM)
+
+*
+A) Sated
+B) Insatiable
+C) Moderate
+D) Apathetic
+Q9. Not only the students but also the professor were surprised by the unexpected test. (SPOTTING ERROR)
+
+*
+A) Not only
+B) But also
+C) Were
+D) Unexpected
+Q10. Despite of the challenges, she is determined to succeed in her ambitious endeavors. (SPOTTING ERROR)
+
+*
+A) Despite of
+B) Challenges
+C) Is
+D) Endeavors
+Q.11 It is difficult to take sides when both the parties present spacious arguments.
+
+*
+1.party presents spacious arguments
+2.parties presenting specious arguments
+3.parties present specious arguments
+4.parties presenting spacious arguments
+5.No improvement required
+Q.12 The police looked for the fraud jeweller all over the country but drew back.
+
+*
+1. Countries but drew back
+2. Country but drew a blank
+3. Country but drew a circle
+4. Country but drew black
+5. No improvement required
+Q.13 If my room had been brighter, I would have been able to read for a while before bedtime.
+
+*
+1. Had my room been brighter
+2. If my room was brighter
+3. If my room have been brighter
+4. Has my room been brighter
+5. No improvement required
+Q.14 If Indian people are united, this nation can become a source of strength for the entire world.
+
+I. could become a resource of
+
+II. can become resourceful for
+
+III. would be a source in
+*
+1. Only I
+2. Only II
+3. Only III
+4. Only I and II
+5.No improvement required
+Q.15 Though the government is facing fiscal constraints to pump-prime the economy, the RBI may have headroom to cut rates to support growth.
+
+I. to prime the economy
+
+II. to priming the economy
+
+III. to pumping the economy
+
+*
+1. Both II and III
+2. Both I and III
+3. Both I and II
+4. Only III
+5. No improvement required
+Q.16 Well, my plan to go to the beach have gone for a burton now that it’s supposed to rain all weekend.
+
+i) plan to go to the beach had went for a burton now
+
+ii) plan to go to the beach is gone for a burton now
+
+iii) plan of going to the beach is gone for a burton now
+
+*
+1. Only i
+2. Only ii
+3. Only iii
+4. Only ii and iii
+5. No improvement required
+17. With surface temperatures estimated at minus 130 degrees Fahrenheit, Jupiter’s moon Europa has long been considered far too cold to support life, and with 60 square miles of water thought to be frozen from top to bottom.
+
+1. Europa has long been considered far too cold to support life, and with
+2. Europa has long been considered far too cold to support life, its
+3. Europa has long been considered as far too cold to support life and has
+4. Europa, long considered as far too cold to support life, and its
+5. Europa, long considered to be far too cold to support life, and to have
+18. For the farmer who takes care to keep them cool, providing them with high-energy feed, and milking them regularly, Holstein cows are producing an average of 2,275 gallons of milk each per year
+1. providing them with high-energy feed, and milking them regularly, Holstein cows are producing
+2. providing them with high-energy feed, and milked regularly, the Holstein cow produces
+3. provided with high-energy feed, and milking them regularly, Holstein cows are producing
+4. provided with high-energy feed, and milked regularly, the Holstein cow produces
+5. provided with high-energy feed, and milked regularly, Holstein cows will produce
+19. Para Jumbles:
+A. These were mainly bulwarks against winter, the hoarded dregs of more plentiful seasons.
+B. The first were the earliest mince pies, which saw cooked, shredded meat, dried fruits, alcohol with its preservative qualities and perhaps a few spices or herbs, all encased in large pies.
+C. Subsequently, people baked this into a kind of pie, adding bread-crumbs for bulk, eggs to bind it, and upping the dried fruits and called it 'plum pudding'.
+D. The pudding seems to have had two principal forerunners.
+E. The second main pudding was a pottage or soup called frumenty, a fast dish involving cracked wheat, currants and almonds which was ladled out at the start of a meal.
+A. ECDAB
+B. BAECD
+C. DACEB
+D. DBAEC
+20. Para Jumbles:
+A. In a bid to placate the associate members, the ICC has decided to increase the number of participating teams to 16 in the Twenty20 World Cup, as the game's governing body feels these countries will have a greater chance of competing on an equal footing in cricket's shortest format.
+B. It is convenient just now to forget that in the last edition of the tournament,considerable criticism was heaped on the governing body for the inordinate length of the tournament, thanks in large part to the presence of the associates.
+C. To be fair to the ICC, criticism of the move to restrict the number of teams in the next edition of the Cup is a case of damned if you do, damned if you don't.
+D. The ICC's decision to restrict the number of teams in the 2015 World Cup has evoked mixed responses, with opinion divided among players of the full member teams.
+E. Not surprisingly, the associate members aren't too thrilled about the idea of being kept out of cricket's showpiece event.
+A) ECDAB
+B) BAECD
+C) DACEB
+D) DEACB
+21. What is the synonym of the word ‘Parochial’?
+
+A) Abstract
+B) Unorthodox
+C) Baffling
+D) Conservative
+22. Fill the blank with the appropriate word: ‘
+
+The decision will ___ the entire nation.’
+
+A) Impact
+B) Impress
+C) Implant
+D) Implement
+23. I haven't checked the engine before we travel and the car ___________ in the middle of the road:. 
+
+1.Broke up
+2.Broke down
+4.Broke in
+5.Break down
+24. Even though he is a learned person, he talks nonsense when it comes to morality and integrity. 
+
+1. Talks through one’s hat
+2.  Bark up the wrong tree
+3. Like a cat on hot bricks
+4. Show a clean pair of heels
+25. Mary had a bad experience in a relationship in the past, now, she is in a state of confusion whether she should marry someone or not.
+
+1. All at Sea
+2. Wrapped one’s brain around
+3. Playing ducks and drakes
+4. At one’s beck and call
+26. Antonym : EXODUS
+
+*
+Influx
+Home-coming
+Return
+Restoration
+27. Antonym :  QUIESCENT
+ACTIVE
+Dormant
+Weak
+Unconcerned
+28. Synonym : CANNY
+
+Obstinate
+Handsome
+Clever
+Stout
+29. Synonym :  ALERT
+Energetic
+Observant
+Intelligent
+Watchful
+30. Who broke the wall painting? 
+
+(A) By whom was the wall painting broken?
+(B) By who was the wall painting broken?
+(C) By whom had the wall painting been broken?
+(D) By whom was the wall painting broken?
