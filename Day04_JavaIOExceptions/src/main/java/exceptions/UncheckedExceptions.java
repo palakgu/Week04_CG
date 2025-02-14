@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class UncheckedException {
+public class UncheckedExceptions {
 
     public static int divideNumbers(int numerator, int denominator) {
         if (denominator == 0) {
