@@ -4,9 +4,9 @@ import java.util.*;
 
 public class CustomExceptionExample {
 
-    public static void validateAge(int age) throws InvalidAgeException {
+    public static void validateAge(int age) throws InvalidAgeExceptions {
         if (age < 18) {
-            throw new InvalidAgeException("Age must be 18 or above");
+            throw new InvalidAgeExceptions("Age must be 18 or above");
         }
         System.out.println("Access granted!");
     }
@@ -18,15 +18,10 @@ public class CustomExceptionExample {
             System.out.print("Enter your age: ");
             int age = scanner.nextInt();
             validateAge(age);
-        } catch (InvalidAgeException e) {
+        } catch (InvalidAgeExceptions e) {
             System.out.println("Error: " + e.getMessage());
         } catch (Exception e) {
             System.out.println("Invalid input! Please enter a valid age.");
         }
-    }
-}
- class InvalidAgeException extends Exception {
-    public InvalidAgeException(String message) {
-        super(message);
     }
 }
