@@ -1,4 +1,4 @@
-package reflection.customloggingproxy;
+package reflection.customlogging;
 
 public class ProxyTest {
     public static void main(String[] args) {

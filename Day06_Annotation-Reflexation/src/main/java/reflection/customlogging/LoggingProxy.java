@@ -1,5 +1,5 @@
 
-package reflection.customloggingproxy;
+package reflection.customlogging;
 
 
 import java.lang.reflect.InvocationHandler;
